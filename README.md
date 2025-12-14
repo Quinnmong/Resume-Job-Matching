@@ -5,9 +5,9 @@ Mini AI pipeline to predict whether a resume is relevant to a given job descript
 
 ## 1. Introduction
 
-Automated resume–job matching is a core component of modern recruitment platforms. Given a large number of resumes and job postings, recruiters rely on automated systems to efficiently identify suitable candidates. However, this task is challenging due to varied wording, overlapping skills across roles, and ambiguous job requirements.
+Automated resume job matching is a core component of modern recruitment platforms. Given a large number of resumes and job postings, recruiters rely on automated systems to efficiently identify suitable candidates. However, this task is challenging due to varied wording, overlapping skills across roles, and ambiguous job requirements.
 
-In this project, we design a **mini AI pipeline** to predict whether a resume is relevant to a given job description. We compare a **naïve keyword-based baseline** with **two embedding-based pipelines** that use pre-trained language models. The goal is not to achieve state-of-the-art performance, but to practice the AI workflow: problem formulation, baseline design, pipeline construction, evaluation, and reflection.
+In this project, we design a **mini AI pipeline** to predict whether a resume is relevant to a given job description. We compare a **naïve keyword-based baseline** with **two embedding, based pipelines** that use pre-trained language models. The goal is not to achieve state-of-the-art performance, but to practice the AI workflow: problem formulation, baseline design, pipeline construction, evaluation, and reflection.
 
 ---
 
