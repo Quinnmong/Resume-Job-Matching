@@ -90,7 +90,7 @@ We implement two embedding-based pipelines that replace lexical matching with **
 
 **Figure 1** illustrates the overall pipeline: resumes and job descriptions are encoded into sentence embeddings, cosine similarity is computed, and a threshold-based decision determines relevance.
 
-![Pipeline Overview](images/pipeline_overview.png)
+![Pipeline Overview](pipeline.png)
 
 ### Pipeline Stages
 
@@ -134,7 +134,7 @@ We evaluate all methods using:
 
 ### Precision–Recall Trade-off
 
-![Precision–Recall Trade-off](images/precision_recall_tradeoff.png)
+![Precision–Recall Trade-off](tradeoff.png)
 
 **Figure 2:** Precision–recall comparison of the keyword baseline and embedding-based pipelines. Each point represents a method evaluated with a fixed decision threshold.
 
